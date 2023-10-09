@@ -1,0 +1,176 @@
+{
+    "HolidayDates": [
+        {
+            "date": "01-01",
+            "message": "Año Nuevo"
+        },
+        {
+            "date": "27-01",
+            "message": "Día Internacional en Memoria de las Víctimas del Holocausto Judío"
+        },
+        {
+            "date": "20-02",
+            "message": "Día Mundial de la Justicia Social"
+        },
+        {
+            "date": "08-03",
+            "message": "Día Internacional de la Mujer"
+        },
+        {
+            "date": "11-03",
+            "message": "Día Nacional de la No Violencia"
+        },
+        {
+            "date": "15-03",
+            "message": "Día Internacional de los Derechos del Consumidor"
+        },
+        {
+            "date": "19-04",
+            "message": "Desembarco de los 33 Orientales"
+        },
+        {
+            "date": "07-04",
+            "message": "Día Mundial de la Salud"
+        },
+        {
+            "date": "11-04",
+            "message": "Día de la Nación Charrúa y de la Identidad Indígena"
+        },
+        {
+            "date": "22-04",
+            "message": "Día Internacional de la Madre Tierra"
+        },
+        {
+            "date": "24-04",
+            "message": "Día de la Conmemoración del Genocidio Armenio"
+        },
+        {
+            "date": "25-04",
+            "message": "Día Mundial de la lucha contra la Violencia hacia Niños, Niñas y Adolescentes"
+        },
+        {
+            "date": "01-05",
+            "message": "Día del Trabajador"
+        },
+        {
+            "date": "03-05",
+            "message": "Día Mundial de la Libertad de Prensa"
+        },
+        {
+            "date": "08-05",
+            "message": "Día Mundial de la Cruz Roja"
+        },
+        {
+            "date": "17-05",
+            "message": "Día Internacional contra la Homofobia y la Transfobia"
+        },
+        {
+            "date": "18-05",
+            "message": "🇺🇾 Batalla de Las Piedras"
+        },
+        {
+            "date": "21-05",
+            "message": "Día Mundial de la Diversidad Cultural para el Diálogo y el Desarrollo"
+        },
+        {
+            "date": "19-06",
+            "message": "🇺🇾 Natalicio de Artigas"
+        },
+        {
+            "date": "05-06",
+            "message": "Día Mundial del Medio Ambiente"
+        },
+        {
+            "date": "12-06",
+            "message": "Día Mundial de Lucha Contra el Trabajo Infantil"
+        },
+        {
+            "date": "20-06",
+            "message": "Día Mundial de los Refugiados"
+        },
+        {
+            "date": "26-06",
+            "message": "Día Internacional de Apoyo a las Víctimas de la Tortura"
+        },
+        {
+            "date": "15-07",
+            "message": "Día Mundial de las Habilidades de la Juventud"
+        },
+        {
+            "date": "18-07",
+            "message": "🇺🇾 Jura de la Constitución"
+        },
+        {
+            "date": "25-07",
+            "message": "Día Internacional de la Mujer Afrodescendiente"
+        },
+        {
+            "date": "09-08",
+            "message": "Día Internacional de los Pueblos Indígenas"
+        },
+        {
+            "date": "25-08",
+            "message": "Declaración de la Independencia"
+        },
+        {
+            "date": "30-08",
+            "message": "Día Internacional de las Víctimas de Desapariciones Forzadas"
+        },
+
+        {
+            "date": "08-09",
+            "message": "🌍 Día Internacional de la Alfabetización"
+        },
+        {
+            "date": "21-09",
+            "message": "Día Internacional de la Paz"
+        },
+        {
+            "date": "22-09",
+            "message": "Día del Maestro"
+        },
+        {
+            "date": "23-09",
+            "message": "Día Internacional contra la Trata de Personas"
+        },
+        {
+            "date": "28-09",
+            "message": "Día Mundial de Acceso a la Información Pública"
+        },
+        {
+            "date": "02-10",
+            "message": "Día Internacional de la No Violencia"
+        },
+        {
+            "date": "05-10",
+            "message": "Día Mundial de los Docentes"
+        },
+        {
+            "date": "06-10",
+            "message": "🌍 Día Mundial del Hábitat"
+        },
+        {
+            "date": "12-10",
+            "message": "🌍 Día de la Raza"
+        },
+        {
+            "date": "02-11",
+            "message": "Día de los Difuntos"
+        },
+        {
+            "date": "13-12",
+            "message": "🇺🇾 Día del funcionario de Antel"
+        },
+        {
+            "date": "24-12",
+            "message": "🎄 Nochebuena"
+        },
+
+
+        {
+            "date": "25-12",
+            "message": "🎄 Navidad"
+        }
+        
+    ]
+}

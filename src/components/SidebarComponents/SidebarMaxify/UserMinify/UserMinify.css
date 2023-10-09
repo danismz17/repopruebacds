@@ -1,0 +1,44 @@
+.userminify-sidebar-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.userminify-sidebar-container:hover{
+    background-color: var(--darkA);
+}
+
+.userminify-photo-container{
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userminify-photo-box{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(230, 230, 230);
+    transform: rotate(45deg);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userminify-photo-box img{
+    width: 100%;
+    transform: rotate(-45deg);
+}
+
+.userminify-name-container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

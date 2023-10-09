@@ -1,0 +1,74 @@
+.sidebarminify-container{
+    width: auto;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    background-color: var(--darkC);
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-self:start ;
+}
+
+.sidebarminify-logo-container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebarminify-logo-container img{
+    width: 100px;
+    height: 100px;
+}
+
+.sidebarminify-separador{
+    width: 100%;
+    height: 20px;
+    background-color: #044646;
+    background-image: url("https://www.transparenttextures.com/patterns/light-sketch.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+
+.sidebarminify-separador h5 {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+.mini-icon-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.mini-icon-container:hover{
+    background-color: var(--darkA);
+}
+
+
+.mini-icon-container img{
+    width: 30px;
+    align-items: center;
+}
+
+.mini-icon-user-box{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    transform: rotate(-45deg);
+}
+
+.mini-icon-user-box img{
+    width: 100%;
+    transform: rotate(45deg);
+}

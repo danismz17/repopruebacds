@@ -1,0 +1,32 @@
+.menubutton-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menubutton-container:hover{
+background-color: var(--darkA);
+}
+
+.menubutton-container-ico-box{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menubutton-container-ico-box img{
+    width: 30px;
+}
+
+.menubutton-container-tittle-box{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

@@ -1,0 +1,108 @@
+.sidebar-IO-special-row{
+    width: 100%;
+    min-height: 50px;
+    background-color: var(--darkA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-IO-special-row-ico-box{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.sidebar-IO-special-row-search-box{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-IO-special-row-search-box input{
+width: 100%;
+height: 100%;
+background-color: transparent;
+border: none;
+outline: none;
+font-family: 'Quicksand', sans-serif;
+color: rgba(240, 248, 255, 0.452);
+font-size: 1rem;
+}
+.sidebar-IO-special-row-search-box input::placeholder{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    color: aliceblue,    
+}
+
+
+.sidebar-delete-box{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.clearSearchbtn{
+    width: 20px;
+    filter: invert(19%) sepia(83%) saturate(6773%) hue-rotate(359deg) brightness(96%) contrast(105%);
+}
+
+.clearSearchbtn:hover{
+    transform: rotate(90deg);
+    transition: transform 0.3s ease; /* Puedes ajustar la duración de la animación según tus preferencias */
+}
+
+.search-results-box {
+    width: 100%;
+    min-height: 50px;
+    max-height: 800px;
+    overflow-y: scroll; /* Habilita el desplazamiento vertical */
+    background-color: var(--darkB);
+    display: none;
+    }
+
+    .search-results-box.visible {
+        display: block; /* Mostrar cuando isResultsVisible es true */
+      }
+      
+      .search-results-box.hidden {
+        display: none; /* Ocultar cuando isResultsVisible es false */
+      }
+
+/* Oculta la barra de desplazamiento vertical en navegadores WebKit */
+.search-results-box::-webkit-scrollbar {
+    width: 0.2rem; /* Ancho de la barra de desplazamiento vertical */
+}
+
+/* Oculta el control deslizante de la barra de desplazamiento */
+.search-results-box::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+/* Oculta la pista de la barra de desplazamiento */
+.search-results-box::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+.search-results-box p{
+    text-align: center;
+    color: rgb(243, 0, 0);
+}
+
+.search-results-box .IO-container {
+    background-color:var(--darkB); 
+  }
+
+  .search-results-box .IO-container:hover {
+    background-color:var(--darkA)
+  }

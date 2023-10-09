@@ -1,0 +1,50 @@
+.user-sidebar-profile-button {
+    width: 140px;
+    height: 30px;
+    padding: 0px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #044646;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.user-sidebar-profile-button:hover {
+    background-color: #033030;
+    transition: background-color 0.3s ease;
+
+}
+
+.user-options-ico-box {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-sidebar-profile-button img {
+    width: 100%;
+}
+
+.user-sidebar-profile-button img:hover {
+    transition: background-color 0.3s ease;
+}
+
+
+.user-sidebar-profile-button a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.user-options-text-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.TagsGeneral{
+    width: auto;
+    height: 25px;
+    font-size: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid var(--darkB);
+    border-radius: 50px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    letter-spacing: .5px;
+    background-color: var(--whiteA);
+    color: var(--darkB);
+}
+
+.activeTagsGeneral{
+    background-color: #4d7cff;
+    color: var(--whiteB);
+}

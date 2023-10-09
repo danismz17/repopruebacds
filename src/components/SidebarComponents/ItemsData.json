@@ -1,0 +1,249 @@
+[
+    {
+        "tipoMenu": "simple",
+        "id": "Home",
+        "ico": "/images/ico/home.png",
+        "item": "Inicio",
+        "link": "/home",
+        "DESPLEGABLEico": ""
+    },
+
+    {
+        "tipoMenu": "desplegable",
+        "id": "Servicios",
+        "ico": "/images/ico/cloud.png",
+        "item": "Servicios",
+        "link": "",
+        "DESPLEGABLEico": "/images/ico/double-down.png",
+        "desplegable": [
+            {
+                "id": "Principal",
+                "ico": "/images/ico/principal.png",
+                "item": "Principal",
+                "link": "/principal"
+            },
+            {
+                "id": "Categorias",
+                "ico": "/images/ico/categorias.png",
+                "item": "Categorias",
+                "link": "/categorias"
+            },
+            {
+                "id": "Configuraciones",
+                "ico": "/images/ico/configuraciones.png",
+                "item": "Configuraciones",
+                "link": "/configuraciones"
+            },
+            {
+                "id": "Etiquetas",
+                "ico": "/images/ico/tags.png",
+                "item": "Etiquetas",
+                "link": "/etiquetas"
+            },
+            {
+                "id": "Metadata",
+                "ico": "/images/ico/metadata.png",
+                "item": "Metadata",
+                "link": "/metadata"
+            },
+
+            {
+                "id": "TipoRelaciones",
+                "ico": "/images/ico/tiporelaciones.png",
+                "item": "Tipos Relaciones",
+                "link": "/tipo-relaciones"
+            },
+
+            {
+                "id": "Recursos",
+                "ico": "/images/ico/recursos.png",
+                "item": "Recursos",
+                "link": "/recursos"
+            },
+
+            {
+                "id": "Listas",
+                "ico": "/images/ico/listas.png",
+                "item": "Listas",
+                "link": "/listas"
+            },
+
+            {
+                "id": "Banners",
+                "ico": "/images/ico/banners.png",
+                "item": "Banners",
+                "link": "/banners"
+            },
+
+            {
+                "id": "Senales",
+                "ico": "/images/ico/senales.png",
+                "item": "Señales",
+                "link": "/señales"
+            }
+        ]
+    },
+
+    
+    {
+        "tipoMenu": "desplegable",
+        "id": "Catalogo",
+        "ico": "/images/ico/catalogo.png",
+        "item": "Catálogo",
+        "link": "",
+        "DESPLEGABLEico": "/images/ico/double-down.png",
+        "desplegable": [
+            {
+                "id": "Contenido",
+                "ico": "/images/ico/contenido.png",
+                "item": "Contenido",
+                "link": "/contenido"
+            },
+            {
+                "id": "CrearContenidos",
+                "ico": "/images/ico/agregarContanido.png",
+                "item": "Crear Contenidos",
+                "link": "/crear-contenido"
+            },
+            {
+                "id": "Videos",
+                "ico": "/images/ico/videos.png",
+                "item": "Videos",
+                "link": "/videos"
+            },
+            {
+                "id": "Eventos",
+                "ico": "/images/ico/eventos.png",
+                "item": "Eventos",
+                "link": "/eventos"
+            },
+            {
+                "id": "Series",
+                "ico": "/images/ico/series.png",
+                "item": "Series",
+                "link": "/series"
+            },
+            {
+                "id": "Canales",
+                "ico": "/images/ico/canales.png",
+                "item": "Canales",
+                "link": "/canales"
+            },
+
+            {
+                "id": "Camaras",
+                "ico": "/images/ico/camaras.png",
+                "item": "Cámaras",
+                "link": "/camaras"
+            },
+
+            {
+                "id": "Grupos",
+                "ico": "/images/ico/grupos.png",
+                "item": "Grupos",
+                "link": "/grupos"
+            },
+
+            {
+                "id": "Historico",
+                "ico": "/images/ico/historico.png",
+                "item": "Histórico",
+                "link": "/historico"
+            }
+        ]
+    },
+
+    {
+        "tipoMenu": "desplegable",
+        "id": "Autorizaciones",
+        "ico": "/images/ico/autorizacion.png",
+        "item": "Autorizaciones",
+        "link": "",
+        "DESPLEGABLEico": "/images/ico/double-down.png",
+        "desplegable": [
+            {
+                "id": "Usuarios",
+                "ico": "/images/ico/usuarios.png",
+                "item": "Usuarios",
+                "link": "/usuarios"
+            },
+            {
+                "id": "Paquetes",
+                "ico": "/images/ico/paquetes.png",
+                "item": "Paquetes",
+                "link": "/paquetes"
+            },
+            {
+                "id": "AutorizacionesUsuarios",
+                "ico": "/images/ico/autorizaciones.png",
+                "item": "Autorizaciones",
+                "link": "/autorizacionesUsuarios"
+            }
+        ]        
+    },
+
+    {
+        "tipoMenu": "Desplegable",
+        "id": "gestionPortal",
+        "ico": "/images/ico/portal.png",
+        "item": "Gestion del Portal",
+        "link": "",
+        "DESPLEGABLEico": "/images/ico/double-down.png",
+        "desplegable": [
+            {
+                "id": "AuditoriaControl",
+                "ico": "/images/ico/auditoriascontrol.png",
+                "item": "Auditoria Control",
+                "link": "/auditoriaControl"
+            },
+            {
+                "id": "Administradores",
+                "ico": "/images/ico/usersadm.png",
+                "item": "Administradores",
+                "link": "/administradores"
+            }
+        ]        
+    },
+
+    {
+        "tipoMenu": "desplegable",
+        "id": "GestionPlataforma",
+        "ico": "/images/ico/web.png",
+        "item": "Gestion de Plataforma",
+        "link": "",
+        "DESPLEGABLEico": "/images/ico/double-down.png",
+        "desplegable": [
+            {
+                "id": "UsuariosPlataforma",
+                "ico": "/images/ico/settings.png",
+                "item": "Configuracion",
+                "link": "/usuarios-plataforma"
+            },
+            {
+                "id": "PaquetesPlataforma",
+                "ico": "/images/ico/monitoreo.png",
+                "item": "Monitoreo",
+                "link": "/paquetes-plataforma"
+            },
+            {
+                "id": "DatosDeOrigen",
+                "ico": "/images/ico/database.png",
+                "item": "Datos de Origen",
+                "link": "/datosDeOrigen"
+            },
+            {
+                "id": "AutorizacionesUsuariosB",
+                "ico": "/images/ico/autorizaciones4.png",
+                "item": "Autorizaciones",
+                "link": "/autorizacionesUsuariosB"
+            },
+            {
+                "id": "Reportes",
+                "ico": "/images/ico/reportes.png",
+                "item": "Reportes",
+                "link": "/reportes"
+            }
+
+        ]        
+    }
+]

@@ -1,0 +1,233 @@
+.BtnVerde {
+    --color: #4AB563;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    margin: 20px;
+    font-size: 15px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    position: relative;
+    background-color: var(--darkB);
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.BtnVerde::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 180px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.BtnVerde:hover {
+    color: white;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.BtnVerde:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+}
+
+.BtnVerde:hover::before {
+    top: -30px;
+    left: -30px;
+}
+
+
+.BtnRojo {
+    --color: #DB524B;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    margin: 20px;
+    font-size: 15px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    position: relative;
+    background-color: var(--darkB);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.BtnRojo::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 180px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.BtnRojo:hover {
+    color: white;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.BtnRojo:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+}
+
+.BtnRojo:hover::before {
+    top: -30px;
+    left: -30px;
+}
+
+
+.BtnAmarillo {
+    --color: #FBC030;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    margin: 20px;
+    font-size: 15px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    position: relative;
+    background-color: var(--darkB);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.BtnAmarillo::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 180px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.BtnAmarillo:hover {
+    color: white;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.BtnAmarillo:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+}
+
+.BtnAmarillo:hover::before {
+    top: -30px;
+    left: -30px;
+}
+
+
+.BtnAzul {
+    --color: #3F50B7;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    margin: 20px;
+    font-size: 15px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    position: relative;
+    background-color: var(--darkB);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.BtnAzul::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 180px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.BtnAzul:hover {
+    color: white;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.BtnAzul:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+}
+
+.BtnAzul:hover::before {
+    top: -30px;
+    left: -30px;
+}
+
+.BtnGris {
+    --color: #CED4DA;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    margin: 20px;
+    font-size: 15px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    position: relative;
+    background-color: var(--whiteB);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.BtnGris::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 180px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.BtnGris:hover {
+    color: white;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.BtnGris:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+}
+
+.BtnGris:hover::before {
+    top: -30px;
+    left: -30px;
+}

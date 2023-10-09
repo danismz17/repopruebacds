@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
+html {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: var(--darkA);
+
+}
+
+body {
+    margin: 0 auto;
+}
+
+.web-container {
+    width: 100vw;
+    height: auto;
+    background-color: var(--darkA);
+    display: flex;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font: var(--estilo-h1-logo);
+}
+
+h2 {
+    font: var(--estilo-h2-titulo);
+}
+
+h3 {
+    font: var(--estilo-h3-subtitulo);
+}
+
+h4 {
+    font: var(--estilo-h4-tituloCards);
+}
+
+h5 {
+    font: var(--estilo-h5-subtituloCards);
+}
+
+h6 {
+    font: var(--estilo-h6-subsubtituloCards);
+}
+
+p {
+    font: var(--estilo-parafo);
+}
+
+
+:root {
+    /* ---COLORES--- */
+    --darkA: #100f10;
+    --darkB: #1b1b1b;
+    --darkC: #242424;
+
+    --whiteA: #E1E5EA;
+    --whiteB: #F0F5F9;
+    --whiteC: #FDFAF6;
+
+
+    --green: #4AB563;
+    --green-hover: #0ab404;
+    --red: #DB524B;
+    --red-hover:#E25563;
+    --yellow: #FBC030;
+    --yellow-hover:#FFCB2F;
+    --blue: #3F50B7;
+    --blue-hover: #094bac;
+    --grey: #CED4DA;
+    --grey-hover: #ADB5BD;
+
+    /* ---FUENTES--- */
+    --estilo-h1-logo: 300 2.5rem 'Quicksand', sans-serif;
+    --estilo-h2-titulo: 500 3.5rem 'Quicksand', sans-serif;
+    --estilo-h3-subtitulo: 400 1.75rem 'Quicksand', sans-serif;
+    --estilo-h4-tituloCards: 600 1.375rem 'Quicksand', sans-serif;
+    --estilo-h5-subtituloCards: 500 1rem 'Quicksand', sans-serif;
+    --estilo-h6-subsubtituloCards: 400 0.875rem 'Quicksand', sans-serif;
+    --estilo-parafo: 400 1rem 'Quicksand', sans-serif;
+}
+
+
+/* ---FUENTES--- */
+/* 
+
+colores
+
+#100f10
+#1b1b1b
+#242424
+
+#FFFFFF
+#FDFAF6
+#F0F5F9
+#E1E5EA
+
+  
+  fuentes pequeñas
+  0.375rem
+  0.625rem
+  0.875rem
+  
+  fuentes medianas
+  1rem
+  1.375rem
+  1.75rem
+
+  fuentes grandes
+  2.5rem
+  3.5rem
+  4.5rem
+  
+  */
+
+  
+    
+  .entradaSidebar{-webkit-animation:slide-in-left .2s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left .2s cubic-bezier(.25,.46,.45,.94) both}
+  
+ @-webkit-keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+ .salidaSidebar{-webkit-animation:slide-out-left .2s cubic-bezier(.55,.085,.68,.53) both;animation:slide-out-left .2s cubic-bezier(.55,.085,.68,.53) both}
+  
+  @-webkit-keyframes slide-out-left{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}100%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}}@keyframes slide-out-left{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}100%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}}

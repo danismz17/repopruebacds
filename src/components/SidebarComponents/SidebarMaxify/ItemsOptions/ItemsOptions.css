@@ -1,0 +1,106 @@
+.IO-container{
+    width: 100%;
+    height: 50px;
+    background-color: var(--darkC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer
+}
+
+.IO-container:hover{
+    background-color: var(--darkA);
+    transition: background-color 300ms ease-out;
+}
+
+
+.IO-ico-box{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    /* background-color: rgb(240, 100, 0); */
+}
+
+.IO-ico-box img{
+    width: 30px;
+
+}
+
+.IO-item-box{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.IO-desplegable-box{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    /* background-color: chartreuse; */
+}
+
+.IO-desplegable-box img{
+    width: 20px;
+
+}
+
+.IO-desplegable-box img.rotated{
+    transform: rotate(90deg);
+    transition: transform 0.3s ease; /* Puedes ajustar la duración de la animación según tus preferencias */
+}
+
+/* Define la animación de rotación inversa */
+.IO-desplegable-box img.reverse-rotate {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease; /* Puedes ajustar la duración de la animación según tus preferencias */
+  }
+  
+
+.IO-container-desplegable{
+    width: 100%;
+}
+
+.DESPLEGABLE-item-container{
+    width: 100%;
+    height: 50px;
+    background-color: var(--darkB);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.DESPLEGABLE-item-container:hover{
+    background-color: var(--darkA);
+    transition: background-color 300ms ease-out;
+}
+
+.DESPLEGABLE-ico-box{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: blueviolet;
+}
+
+.DESPLEGABLE-item-box{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+

@@ -1,0 +1,2 @@
+este input se usa para ingresar
+datos como nombres comunes
